@@ -9,5 +9,5 @@ located in `$XDG_CONFIG_HOME/nvim` and contains three files
 to use the updater shell script, the following environment variables must be defined:
 
 1. `$XDG_CONFIG_HOME` -> `$HOME/.config`
-2. `$PLUGIN_DIRECTORY` -> `$XDG_CONFIG_HOME/.vim/plugged`
+2. `$PLUGIN_DIRECTORY` -> `$XDG_CONFIG_HOME/nvim/plugged`
 3. `$MYVIMRC` -> `$XDG_CONFIG_HOME/nvim/.vimrc`
