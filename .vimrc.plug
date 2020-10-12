@@ -12,5 +12,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'junegunn/goyo.vim'
 Plug 'sirtaj/vim-openscad'
+"Plug 'JamshedVesuna/vim-markdown-preview'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 call plug#end()

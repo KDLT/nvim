@@ -23,6 +23,17 @@ let g:goyo_width='60%'
 let g:goyo_height='90%'
 let g:goyo_linenr=0
 
+" markdown-preview.nvim
+let g:mkdp_auto_start=1
+let g:mkdp_browser='brave'
+let g:mkdp_open_to_the_world=1
+let g:mkdp_port='8080' " di ko alam kung pweds tong 8080
+" <Plug>MarkdownPreview
+" <Plug>MarkdownPreviewToggle
+" nmap <C-s> <Plug>MarkdownPreview
+" nmap <M-s> <Plug>MarkdownPreviewStop
+nmap <C-s> <Plug>MarkdownPreviewToggle " supposedly <C-p> pero may conflict sa ctrl-p plugin
+
 " indent guides plugin settings
 nnoremap <leader>ig :IndentGuidesToggle<CR>
 let g:indent_guides_enable_on_vim_startup=1
